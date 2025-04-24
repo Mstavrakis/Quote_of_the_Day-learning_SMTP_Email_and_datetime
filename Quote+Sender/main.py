@@ -2,7 +2,7 @@
 
 # smtplib.SMTP("smtp.gmail.com", port=587)
 #
-# gwkj bdfz ghsu andw
+
 #
 #
 #  pythonmarko@yahoo.com
@@ -11,7 +11,7 @@
 #
 # import smtplib
 # my_email = "pythonmarko0@gmail.com"
-# password="gwkjbdfzghsuandw "
+# password=" "
 # with smtplib.SMTP("smtp.gmail.com", port=587) as connection:# creat my connections.
 #     connection.starttls()#Secure connections
 #     connection.login(user=my_email,password=password)#logged in
@@ -28,7 +28,7 @@ import datetime as dt
 import smtplib
 
 my_email = "pythonmarko0@gmail.com"
-password = "gwkjbdfzghsuandw"
+password = ""
 now = dt.datetime.now()
 today=now.weekday()
 
